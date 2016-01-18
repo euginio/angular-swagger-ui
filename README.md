@@ -58,26 +58,6 @@ Create an HTML element in your angularJS application's template or in your HTML 
 ```html
 <div swagger-ui url="URLToYourSwaggerDescriptor" api-explorer="true"></div>
 ```
-Add swagger-ui.min.js and angular.min.js to the end of the body
-```html
-<body>
- 	...
- 	<script src="yourPathToAngularJS/angular.min.js"></script>
- 	<script src="yourPathToAngularSwaggerUI/dist/scripts/swagger-ui.min.js"></script>
- 	<!-- if you choosed to use "ngSanitize" -->
- 	<script src="yourPathToAngularSanitize/angular-sanitize.min.js"></script>
-</body>
-```
-Add swagger-ui.min.css and bootstrap.min.css to the head of the HTML page.
-```html
-<body>
-	<head>
-		...
-		<link rel="stylesheet" href="yourPathToBootstrapCSS/bootstrap.min.css">
-		<link rel="stylesheet" href="yourPathToAngularSwaggerUI/dist/css/swagger-ui.min.css">
-  	</head>
-</body>
-```
 ## Parameters
 
 #### API explorer
